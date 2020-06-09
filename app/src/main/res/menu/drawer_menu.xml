@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Home"
+        android:id="@+id/home"
+        android:icon="@drawable/maskgroup8"
+        />
+
+    <item android:title="Articles"
+        android:id="@+id/menu"
+        android:icon="@drawable/maskgroup19"
+        />
+
+    <item android:title="Videos"
+        android:id="@+id/video"
+        android:icon="@drawable/maskgroup18"
+        />
+
+    <item android:title="Categories"
+        android:id="@+id/categories"
+        android:icon="@drawable/maskgroup20"
+        />
+    <item android:title="Search"
+        android:id="@+id/search"
+        android:icon="@drawable/maskgroup7"
+        />
+
+    <item android:title="My Profile"
+        android:id="@+id/profile"
+        android:icon="@drawable/maskgroup21"
+        />
+
+    <item android:title="Help"
+        android:id="@+id/help"
+        android:icon="@drawable/maskgroup23"
+        />
+    <item android:title="Membership"
+        android:id="@+id/membership"
+        android:icon="@drawable/maskgroup21"
+        />
+
+    <item android:title="Log out"
+        android:id="@+id/logout"
+        android:icon="@drawable/maskgroup22"
+        />
+
+</menu>

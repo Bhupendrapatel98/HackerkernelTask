@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.MembershipFragment">
+
+    <RelativeLayout
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="56dp">
+
+        <ImageView
+            android:layout_marginLeft="10dp"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:src="@drawable/maskgroup11"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Become A Member"
+            android:layout_marginLeft="40dp"
+            android:textSize="20sp"
+            android:textColor="#000"/>
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.6">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hola!"
+            android:textColor="#000"/>
+
+        <TextView
+            android:gravity="center"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:text="Become a premimum member of our cool club ,Because you desrve the Followings"
+            android:textColor="#000"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:layout_marginHorizontal="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="0.3"
+        android:background="@drawable/fb_go_bg">
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginHorizontal="40dp"
+            android:padding="8dp">
+
+            <LinearLayout
+                android:gravity="center"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/blue_bg">
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@drawable/premium"
+                    />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:textSize="12sp"
+                android:textColor="#000"
+                android:fontFamily="@font/productsansregular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Full acess to all premimum content"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginHorizontal="40dp"
+            android:padding="8dp">
+
+            <LinearLayout
+                android:gravity="center"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/blue_bg">
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@drawable/maskgroup16"
+                    />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:textSize="12sp"
+                android:textColor="#000"
+                android:fontFamily="@font/productsansregular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="No advertisement explore w/o interuptions"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginHorizontal="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.2"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Choose a plan that suits you"
+            android:textColor="#000"
+            android:textSize="18sp"
+            android:layout_marginTop="20dp"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp">
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1,000/year(save 200)"
+                android:textColor="#000"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="15dp">
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="100/month"
+                android:textColor="#000"
+                />
+        </LinearLayout>
+
+        <Button
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="Upgrade membership"
+            android:textColor="#fff"
+            android:background="@drawable/blue_bg"
+            android:layout_marginHorizontal="40dp"/>
+    </LinearLayout>
+
+
+
+</LinearLayout>
